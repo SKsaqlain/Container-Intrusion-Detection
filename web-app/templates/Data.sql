@@ -1,0 +1,45 @@
+delete from User;
+delete from Account;
+
+insert into User values ("a123", "abcd98@gmail.com", "abcd98", "abc123", '1997/02/19');
+insert into User values ("a234", "efgh98@gmail.com", "efgh98", "def123", '1997/02/20');
+insert into User values ("b123", "hijk98@gmail.com", "hijk98", "ghi123", '1997/02/21');
+insert into User values ("b234", "lmno98@gmail.com", "lmno98", "jkl123", '1997/02/22');
+insert into User values ("c123", "pqrs98@gmail.com", "pqrs98", "mno123", '1997/02/23');
+insert into User values ("c234", "tuvw98@gmail.com", "tuvw98", "pqr123", '1997/02/24');
+insert into User values ("d123", "xyza98@gmail.com", "xyza98", "stu123", '1997/02/25');
+insert into User values ("d234", "bcde98@gmail.com", "bcde98", "vwx123", '1997/02/26');
+insert into User values ("e123", "fghi98@gmail.com", "fghi98", "yza123", '1997/02/27');
+insert into User values ("e234", "jklm98@gmail.com", "jklm98", "bcd123", '1997/02/28');
+insert into User values ("f123", "nopq98@gmail.com", "nopq98", "efg123", '1997/03/20');
+insert into User values ("f234", "rstu98@gmail.com", "rstu98", "hij123", '1997/03/21');
+insert into User values ("g123", "vwxy98@gmail.com", "vwxy98", "klm123", '1997/03/22');
+insert into User values ("g234", "zabc98@gmail.com", "zabc98", "nop123", '1997/05/23');
+insert into User values ("h123", "defg98@gmail.com", "defg98", "qrs123", '1997/05/17');
+insert into User values ("h234", "ijkl98@gmail.com", "ijkl98", "tuv123", '1997/06/14');
+insert into User values ("i123", "mnop98@gmail.com", "mnop98", "wxy123", '1997/08/12');
+insert into User values ("i234", "qrst98@gmail.com", "qrst98", "zab123", '1997/12/10');
+insert into User values ("j123", "uvwx98@gmail.com", "uvwx98", "cde123", '1997/10/03');
+insert into User values ("j234", "yzab98@gmail.com", "yzab98", "fgh123", '1997/05/02');
+
+insert into Account values ("a123", 1);
+insert into Account values ("a234", 1);
+insert into Account (user_id) values ("b123");
+insert into Account values ("b234", 1);
+insert into Account values ("c123", 2);
+insert into Account values ("c234", 1);
+insert into Account values ("d123", 1);
+insert into Account (user_id) values ("d234");
+insert into Account (user_id) values ("e123");
+insert into Account values ("e234", 2);
+insert into Account values ("f123", 3);
+insert into Account values ("f234", 2);
+insert into Account values ("g123", 1);
+insert into Account values ("g234", 4);
+insert into Account (user_id) values ("h123");
+insert into Account values ("h234", 3);
+insert into Account (user_id) values ("i123");
+insert into Account values ("i234", 1);
+insert into Account values ("j123", 1);
+insert into Account values ("j234", 1);
+
